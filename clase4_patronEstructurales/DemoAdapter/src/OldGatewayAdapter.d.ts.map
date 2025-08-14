@@ -1,0 +1,1 @@
+{"version":3,"file":"OldGatewayAdapter.d.ts","sourceRoot":"","sources":["OldGatewayAdapter.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,KAAK,EAAE,MAAM,SAAS,CAAC;AAChC,OAAO,EAAE,UAAU,EAAE,MAAM,cAAc,CAAC;AAE1C;;GAEG;AACH,qBAAa,iBAAkB,YAAW,KAAK;IACjC,OAAO,CAAC,MAAM;gBAAN,MAAM,EAAE,UAAU;IAEtC,MAAM,CAAC,KAAK,EAAE,MAAM,GAAG,OAAO;CAe/B"}

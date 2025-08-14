@@ -1,0 +1,1 @@
+{"version":3,"file":"theme-factory.d.ts","sourceRoot":"","sources":["../src/theme-factory.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,MAAM,EAAE,MAAM,mBAAmB,CAAC;AAC3C,OAAO,EAAE,QAAQ,EAAE,MAAM,kBAAkB,CAAC;AAE5C,MAAM,WAAW,YAAY;IAC3B,YAAY,IAAI,MAAM,CAAC;IACvB,cAAc,IAAI,QAAQ,CAAC;CAC5B"}
