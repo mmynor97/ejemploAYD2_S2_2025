@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Frontend + Backend Docker</title>
+</head>
+<body>
+    <h1>Comunicación entre contenedores</h1>
+    <p>Haz clic en el botón para obtener un mensaje del backend.</p>
+    <button onclick="obtenerMensaje()">Obtener Mensaje</button>
+    <div id="resultado"></div>
+
+    <script>
+         async function obtenerMensaje() {
+        try {
+            // Ahora, la llamada es a localhost, que tu navegador sí puede resolver
+            const response = await fetch('http://localhost:3000/api/saludo');
+            const data = await response.json();
+            document.getElementById('resultado').innerText = `Mensaje del backend: ${data.mensaje}`;
+        } catch (error) {
+            document.getElementById('resultado').innerText = `Error al conectar con el backend: ${error.message}`;
+            console.error('Error:', error);
+        }
+    }
+    </script>
+</body>
+</html>
