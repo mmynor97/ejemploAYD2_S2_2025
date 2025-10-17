@@ -1,0 +1,72 @@
+# ==================================================
+# 🧱 TERRAFORM
+# ==================================================
+# Archivos de estado y backup (nunca subirlos)
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+terraform.rc
+.terraform.lock.hcl
+
+# Directorio de configuración local
+.terraform/
+.terraform.tfstate
+.terraform.tfstate.backup
+
+# Variables sensibles
+terraform.tfvars
+*.tfvars.json
+*.auto.tfvars
+*.auto.tfvars.json
+
+# Planes y salidas temporales
+terraform.tfplan
+*.plan
+plan.out
+
+# ==================================================
+# 🪪 CLAVES Y CREDENCIALES
+# ==================================================
+# AWS credentials o claves privadas
+*.pem
+*.key
+*.ppk
+*.crt
+*.cer
+
+# ==================================================
+# ⚙️ SISTEMA / EDITORES
+# ==================================================
+# Archivos de sistema (Windows)
+Thumbs.db
+Desktop.ini
+
+# Archivos temporales de VSCode
+.vscode/
+.history/
+*.code-workspace
+
+# Archivos de logs o temporales
+*.log
+*.bak
+*.tmp
+
+# ==================================================
+# 📦 OTROS
+# ==================================================
+# Backups o archivos ZIP/RAR
+*.zip
+*.rar
+*.tar
+*.gz
+
+# ==================================================
+# 🧪 OPCIONAL
+# Si usas Python, Node u otros scripts auxiliares
+# ==================================================
+# Node.js
+node_modules/
+package-lock.json
+
